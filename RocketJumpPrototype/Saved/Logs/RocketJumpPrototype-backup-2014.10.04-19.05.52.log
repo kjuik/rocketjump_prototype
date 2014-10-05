@@ -1,0 +1,657 @@
+Log file open, 10/04/14 16:07:10
+LogInit:Display: Running engine for game: RocketJumpPrototype
+LogInit: Version: 4.4.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 30 2014 23:47:50
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.10.04-14.07.10:126][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.04-14.07.10:162][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.04-14.07.10:179][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.04-14.07.10:188][  0]LogInit: Object subsystem initialized
+[2014.10.04-14.07.10:191][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.04-14.07.10:191][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.04-14.07.10:199][  0]LogInit: Computer: HAL
+[2014.10.04-14.07.10:199][  0]LogInit: User: Micha
+[2014.10.04-14.07.10:201][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.04-14.07.10:201][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2014.10.04-14.07.10:201][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.04-14.07.10:201][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-14.07.10:201][  0]LogMemory: Process Physical Memory: 59.41 MB used, 59.41 MB peak
+[2014.10.04-14.07.10:201][  0]LogMemory: Process Virtual Memory: 35.79 MB used, 35.79 MB peak
+[2014.10.04-14.07.10:201][  0]LogMemory: Physical Memory: 4493.72 MB used, 8104.27 MB total
+[2014.10.04-14.07.10:201][  0]LogMemory: Virtual Memory: 259.40 MB used, 134217728.00 MB total
+[2014.10.04-14.07.10:402][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.10.04-14.07.10:402][  0]LogD3D11RHI: Adapter has 1016MB of dedicated video memory, 0MB of dedicated system memory, and 4052MB of shared system memory, 2 output[s]
+[2014.10.04-14.07.10:404][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.04-14.07.10:404][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.04-14.07.10:404][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.04-14.07.10:410][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.04-14.07.10:425][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.04-14.07.10:494][  0]LogTextLocalizationManager:Warning: The selected culture 'pl_PL' is not available; falling back to 'en'
+[2014.10.04-14.07.10:577][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.04-14.07.12:346][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-14.07.13:003][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-14.07.13:067][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.04-14.07.13:118][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc.
+[2014.10.04-14.07.13:118][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc
+[2014.10.04-14.07.13:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.04-14.07.13:119][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.04-14.07.13:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.04-14.07.13:119][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.10.04-14.07.13:132][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.10.04-14.07.13:132][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.10.04-14.07.13:132][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.10.04-14.07.13:522][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.04-14.07.13:522][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.04-14.07.14:136][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.04-14.07.15:304][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3c6c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b30_0///////STATCAT_Advanced////
+[2014.10.04-14.07.15:304][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.04-14.07.15:494][  0]SourceControl: Info Source control is disabled
+[2014.10.04-14.07.15:494][  0]SourceControl: Info Source control is disabled
+[2014.10.04-14.07.15:514][  0]SourceControl: Info Source control is disabled
+[2014.10.04-14.07.15:889][  0]BlueprintLog: New page: Editor Load
+[2014.10.04-14.07.16:264][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.04-14.07.16:264][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.04-14.07.16:611][  0]LogEngine: Initializing Engine...
+[2014.10.04-14.07.16:796][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.04-14.07.16:841][  0]LogInit: FAudioDevice initialized.
+[2014.10.04-14.07.16:888][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.04-14.07.16:921][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc.
+[2014.10.04-14.07.17:023][  0]LogInit: Texture streaming: Enabled
+[2014.10.04-14.07.17:148][  0]LogInit: Transaction tracking system initialized
+[2014.10.04-14.07.17:402][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2014.10.04-14.07.19:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-14.07.20:420][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.04-14.07.20:491][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/' was not found.
+[2014.10.04-14.07.20:508][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/' was not found.
+[2014.10.04-14.07.20:671][  0]LogConsoleResponse:Display: 
+[2014.10.04-14.07.21:156][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1c74_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b30_0///////STATCAT_Advanced////
+[2014.10.04-14.07.21:156][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_5b24_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b30_0///////STATCAT_Advanced////
+[2014.10.04-14.07.21:156][  0]SourceControl: Info Source control is disabled
+[2014.10.04-14.07.21:156][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.04-14.07.21:157][  0]LightingResults: New page: Lighting Build
+[2014.10.04-14.07.21:183][  0]MapCheck: New page: Map Check
+[2014.10.04-14.07.21:183][  0]LightingResults: New page: Lighting Build
+[2014.10.04-14.07.21:205][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001839551C0
+[2014.10.04-14.07.25:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.04-14.07.25:752][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.07.25:803][  0]Cmd: MAP CHECKDEP
+[2014.10.04-14.07.25:803][  0]MapCheck: New page: Example_Map - Oct 4, 2014, 6:07:25 PM
+[2014.10.04-14.07.25:967][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [164.181ms] ==========
+[2014.10.04-14.07.25:967][  0]LogFileHelpers: Loading map 'Example_Map' took 4.810
+[2014.10.04-14.07.26:762][  0]LogCollectionManager: Loaded 0 collections in 0.001969 seconds
+[2014.10.04-14.07.27:050][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.04-14.07.27:204][  0]LogInit: Using libcurl 7.34.0
+[2014.10.04-14.07.27:204][  0]LogInit:  - built for x86_64-pc-win32
+[2014.10.04-14.07.27:204][  0]LogInit:  - supports SSL with WinSSL
+[2014.10.04-14.07.27:204][  0]LogInit:  - other features:
+[2014.10.04-14.07.27:204][  0]LogInit:      CURL_VERSION_SSL
+[2014.10.04-14.07.27:204][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.10.04-14.07.27:204][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.10.04-14.07.27:204][  0]LogInit:      CURL_VERSION_IDN
+[2014.10.04-14.07.27:204][  0]LogInit: Libcurl will NOT reuse connections
+[2014.10.04-14.07.27:231][  0]LogLoad: Full Startup: 19.13 seconds (BP compile: 0.09 seconds)
+[2014.10.04-14.07.27:254][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.04-14.07.29:594][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.04-14.07.29:940][  0]LogRenderer:Warning: Reallocating scene render targets to support 560x624.
+[2014.10.04-14.07.30:346][  2]LogAssetRegistry: Asset discovery search completed in 12.9550 seconds
+[2014.10.04-14.07.34:419][111]LogRenderer:Warning: Reallocating scene render targets to support 832x896.
+[2014.10.04-14.09.12:633][877]LogSavePackage: Save=275.354034ms
+[2014.10.04-14.09.12:633][877]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacter4FC570614B5624FB489C468557CA5FC5.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.04-14.09.13:027][887]BlueprintLog: New page: Compile MyCharacter
+[2014.10.04-14.09.13:193][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.04-14.09.13:259][887]BlueprintEditorCompileResults: Info [0125.03] Compile of MyCharacter successful! [in 46 ms]
+[2014.10.04-14.09.15:837][943]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.04-14.09.15:877][943]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.04-14.09.15:998][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.04-14.09.15:998][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.04-14.09.16:024][943]LogPlayLevel: PIE:  Blueprint regeneration took 187 ms (1 blueprints)
+[2014.10.04-14.09.16:025][943]PIE: New page: PIE session: Example_Map (Oct 4, 2014, 6:09:16 PM)
+[2014.10.04-14.09.16:075][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050178s)
+[2014.10.04-14.09.16:076][943]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2014.10.04-14.09.16:076][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.051769s)
+[2014.10.04-14.09.16:246][943]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.04-14.09.16:272][943]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.04-14.09.16:273][943]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-14.09.16:275][943]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.09.16:351][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-16.09.16
+[2014.10.04-14.09.16:352][943]LogWorld: Bringing up level for play took: 0.077534
+[2014.10.04-14.09.16:375][943]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.227
+[2014.10.04-14.10.12:913][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001946B2200
+[2014.10.04-14.10.51:002][353]LogSavePackage: Save=251.587067ms
+[2014.10.04-14.10.51:002][353]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacterAD4149174F006B9476A23DB0083AD323.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.04-14.10.52:574][397]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.04-14.10.52:621][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.04-14.10.52:621][397]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.10.04-14.10.52:868][397]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.04-14.10.52:961][397]LogPlayLevel: PIE:  Blueprint regeneration took 386 ms (2 blueprints)
+[2014.10.04-14.10.52:961][397]PIE: New page: PIE session: Example_Map (Oct 4, 2014, 6:10:52 PM)
+[2014.10.04-14.10.53:012][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051253s)
+[2014.10.04-14.10.53:013][397]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2014.10.04-14.10.53:014][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052411s)
+[2014.10.04-14.10.53:043][397]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-14.10.53:044][397]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.10.53:048][397]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-16.10.53
+[2014.10.04-14.10.53:049][397]LogWorld: Bringing up level for play took: 0.004637
+[2014.10.04-14.10.53:051][397]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.097
+[2014.10.04-14.11.52:712][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.04-14.12.50:673][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018E9044A0
+[2014.10.04-14.15.39:559][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.04-14.15.39:559][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.04-14.15.39:614][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018CCFF2E0
+[2014.10.04-14.15.39:614][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001892B7600
+[2014.10.04-14.15.39:614][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000190AE9B20
+[2014.10.04-14.15.39:615][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000019057B560
+[2014.10.04-14.16.25:319][934]LogEditorViewport: Clicking on Actor (LMB): Lava_C (Lava)
+[2014.10.04-14.16.53:221][734]LogEditorActor: Deleted Actor: KillZVolume
+[2014.10.04-14.16.53:556][734]LogEditorActor: Deleted 1 Actors (4.456 secs)
+[2014.10.04-14.17.03:735][ 96]LogSavePackage: Save=89.871117ms
+[2014.10.04-14.17.03:735][ 96]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map2C6E35E744ED74450B8E1FA4D18826BC.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.17.03:773][ 96]LogFileHelpers: Saving map 'Example_Map' took 0.631
+[2014.10.04-14.17.05:941][169]LogEditorViewport: Clicking on Actor (LMB): Lava_C (Lava)
+[2014.10.04-14.17.12:174][393]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Lava_C_2.StaticMesh1)
+[2014.10.04-14.17.34:616][151]LogSavePackage: Save=60.599556ms
+[2014.10.04-14.17.34:616][151]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map25E416614248DA5BB8B0189CF8807F2B.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.17.34:712][151]LogFileHelpers: Saving map 'Example_Map' took 0.474
+[2014.10.04-14.17.45:877][478]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.04-14.17.45:877][478]PIE: New page: PIE session: Example_Map (Oct 4, 2014, 6:17:45 PM)
+[2014.10.04-14.17.45:990][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112901s)
+[2014.10.04-14.17.45:991][478]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2014.10.04-14.17.45:991][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.114039s)
+[2014.10.04-14.17.46:027][478]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-14.17.46:028][478]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.17.46:034][478]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-16.17.46
+[2014.10.04-14.17.46:035][478]LogWorld: Bringing up level for play took: 0.006303
+[2014.10.04-14.17.46:037][478]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.889
+[2014.10.04-14.17.53:071][745]LogPackageName: SearchForPackageOnDisk took   0.177s to resolve Example_Map.umap
+[2014.10.04-14.17.53:262][746]LogPackageName: SearchForPackageOnDisk took   0.170s to resolve Example_Map.umap
+[2014.10.04-14.17.53:263][746]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.04-14.17.53:285][746]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.04-14.17.53:286][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.04-14.17.53:287][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.10.04-14.17.53:318][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001946BA0C0
+[2014.10.04-14.17.53:324][746]Cmd: MEM
+[2014.10.04-14.17.53:453][746]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-14.17.53:453][746]LogMemory: Process Physical Memory: 524.45 MB used, 543.71 MB peak
+[2014.10.04-14.17.53:453][746]LogMemory: Process Virtual Memory: 435.83 MB used, 455.16 MB peak
+[2014.10.04-14.17.53:453][746]LogMemory: Physical Memory: 4739.32 MB used, 8104.27 MB total
+[2014.10.04-14.17.53:453][746]LogMemory: Virtual Memory: 935.41 MB used, 134217728.00 MB total
+[2014.10.04-14.17.53:453][746]LogMemory: 
+[2014.10.04-14.17.53:453][746]Allocator Stats for TBB: (not implemented)
+[2014.10.04-14.17.53:520][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067102s)
+[2014.10.04-14.17.53:521][746]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2014.10.04-14.17.53:521][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.068093s)
+[2014.10.04-14.17.53:522][746]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-14.17.53:525][746]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.17.53:531][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-16.17.53
+[2014.10.04-14.17.53:532][746]LogWorld: Bringing up level for play took: 0.007122
+[2014.10.04-14.18.02:294][ 82]LogPackageName: SearchForPackageOnDisk took   0.154s to resolve Example_Map.umap
+[2014.10.04-14.18.02:475][ 83]LogPackageName: SearchForPackageOnDisk took   0.165s to resolve Example_Map.umap
+[2014.10.04-14.18.02:475][ 83]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.04-14.18.02:475][ 83]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.04-14.18.02:514][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018CCFE3E0
+[2014.10.04-14.18.02:514][ 83]Cmd: MEM
+[2014.10.04-14.18.02:548][ 83]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-14.18.02:548][ 83]LogMemory: Process Physical Memory: 524.51 MB used, 544.57 MB peak
+[2014.10.04-14.18.02:548][ 83]LogMemory: Process Virtual Memory: 435.45 MB used, 456.06 MB peak
+[2014.10.04-14.18.02:548][ 83]LogMemory: Physical Memory: 4744.91 MB used, 8104.27 MB total
+[2014.10.04-14.18.02:548][ 83]LogMemory: Virtual Memory: 940.23 MB used, 134217728.00 MB total
+[2014.10.04-14.18.02:548][ 83]LogMemory: 
+[2014.10.04-14.18.02:548][ 83]Allocator Stats for TBB: (not implemented)
+[2014.10.04-14.18.02:612][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063973s)
+[2014.10.04-14.18.02:613][ 83]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2014.10.04-14.18.02:613][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.065135s)
+[2014.10.04-14.18.02:614][ 83]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-14.18.02:616][ 83]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-14.18.02:623][ 83]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-16.18.02
+[2014.10.04-14.18.02:624][ 83]LogWorld: Bringing up level for play took: 0.007179
+[2014.10.04-14.18.09:583][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001946B9580
+[2014.10.04-14.18.17:475][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.10.04-14.19.19:637][449]LogAudioDerivedData:Display: Building compressed audio format OGG wave Explosion02...
+[2014.10.04-14.19.29:302][773]LogAudioDerivedData:Display: Building compressed audio format OGG wave Light01...
+[2014.10.04-14.20.33:272][105]Cmd: DELETE
+[2014.10.04-14.20.33:272][105]Cmd: ACTOR DELETE
+[2014.10.04-14.20.33:274][105]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-14.20.33:275][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.10.04-14.20.33:275][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.10.04-14.20.33:868][105]LogEditorActor: Deleted 1 Actors (0.595 secs)
+[2014.10.04-14.20.35:938][168]Cmd: DELETE
+[2014.10.04-14.20.35:938][168]Cmd: ACTOR DELETE
+[2014.10.04-14.20.35:939][168]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-14.20.36:246][168]LogEditorActor: Deleted 1 Actors (0.307 secs)
+[2014.10.04-14.20.44:872][445]Cmd: DELETE
+[2014.10.04-14.20.44:873][445]Cmd: ACTOR DELETE
+[2014.10.04-14.20.44:874][445]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-14.20.45:031][445]LogEditorActor: Deleted 1 Actors (0.159 secs)
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_32
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_5.Model_32
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_32
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_32
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_32
+[2014.10.04-14.21.53:611][635]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_32 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_32
+[2014.10.04-14.22.08:203][119]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.22.08:203][119]Aligned camera to fit all selected actors.
+[2014.10.04-14.22.22:392][581]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.22.22:392][581]Aligned camera to fit all selected actors.
+[2014.10.04-14.22.31:684][879]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.22.31:684][879]Aligned camera to fit all selected actors.
+[2014.10.04-14.22.37:545][ 55]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.04-14.23.15:910][242]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.04-14.23.17:703][304]Cmd: TRANSACTION UNDO
+[2014.10.04-14.23.17:703][304]LogEditorTransaction: Undo Scale Actors
+[2014.10.04-14.24.59:353][371]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.04-14.25.00:016][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.10.04-14.25.14:294][809]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.10.04-14.25.15:236][842]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.04-14.25.18:996][946]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.04-14.25.20:959][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.04-14.25.21:547][ 19]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.10.04-14.25.23:607][ 81]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.04-14.25.33:613][355]LogActorFactory: Actor Factory created SM_Statue
+[2014.10.04-14.25.35:184][404]LogActorFactory: Actor Factory created SM_Statue
+[2014.10.04-14.25.36:983][461]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.25.36:983][461]Aligned camera to fit all selected actors.
+[2014.10.04-14.25.39:241][533]Cmd: DELETE
+[2014.10.04-14.25.39:241][533]Cmd: ACTOR DELETE
+[2014.10.04-14.25.39:242][533]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-14.25.39:242][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.10.04-14.25.39:281][533]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.10.04-14.25.43:085][645]LogActorFactory: Actor Factory created SM_TableRound
+[2014.10.04-14.25.43:214][648]LogActorFactory: Actor Factory created SM_TableRound
+[2014.10.04-14.25.44:834][699]Cmd: DELETE
+[2014.10.04-14.25.44:834][699]Cmd: ACTOR DELETE
+[2014.10.04-14.25.44:836][699]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-14.25.44:836][699]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.10.04-14.25.44:875][699]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.10.04-14.26.51:018][468]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.26.51:018][468]Aligned camera to fit all selected actors.
+[2014.10.04-14.27.11:342][ 64]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.10.04-14.27.13:758][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.04-14.27.20:837][339]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/NewFolder'
+[2014.10.04-14.27.23:851][434]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.27.45:522][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.04-14.27.45:523][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.27.54:910][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.10.04-14.27.54:911][176]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.04-14.27.55:469][176]LogSavePackage: Save=94.498390ms
+[2014.10.04-14.27.55:469][176]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapF8F256EC42D50FE8B7CCFEADC0126A83.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.27.55:528][176]LogFileHelpers: Saving map 'Example_Map' took 0.533
+[2014.10.04-14.27.55:578][176]LogSavePackage: Save=36.953300ms
+[2014.10.04-14.27.55:578][176]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/PlatformCAD00AD04904CB20A18B319C8806307D.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Platform.uasset'
+[2014.10.04-14.28.05:248][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2014.10.04-14.28.08:553][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube25)
+[2014.10.04-14.28.10:988][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2014.10.04-14.28.11:948][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.28.11:948][663]Aligned camera to fit all selected actors.
+[2014.10.04-14.28.51:126][638]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.04-14.28.51:127][638]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.28.54:168][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000198A13600
+[2014.10.04-14.28.54:600][702]LogSavePackage: Save=64.753052ms
+[2014.10.04-14.28.54:600][702]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map9A9E350046B169CF6103A68AF6C96522.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.28.54:658][702]LogFileHelpers: Saving map 'Example_Map' took 0.453
+[2014.10.04-14.28.54:933][702]LogSavePackage: Save=245.074982ms
+[2014.10.04-14.28.54:933][702]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/IndestructibleCube9FB698934FB9F3BD2B9945BFFA82770B.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/IndestructibleCube.uasset'
+[2014.10.04-14.29.00:957][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.04-14.29.03:241][945]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TemplateCube_Rounded_DM)
+[2014.10.04-14.29.04:891][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.29.04:891][995]Aligned camera to fit all selected actors.
+[2014.10.04-14.29.28:416][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000198A8F600
+[2014.10.04-14.29.28:956][612]LogSavePackage: Save=78.481735ms
+[2014.10.04-14.29.28:956][612]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapBF8D3924440681809F0E85B9BECDD78C.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.29.29:009][612]LogFileHelpers: Saving map 'Example_Map' took 0.544
+[2014.10.04-14.29.44:714][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.04-14.29.44:715][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.29.48:115][ 50]LogSavePackage: Save=70.293381ms
+[2014.10.04-14.29.48:115][ 50]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map116CAA93448D8C284CB62AAEE46175B4.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.29.48:162][ 50]LogFileHelpers: Saving map 'Example_Map' took 0.482
+[2014.10.04-14.29.48:456][ 50]LogSavePackage: Save=263.359497ms
+[2014.10.04-14.29.48:456][ 50]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/DestructibleCube927BDDED4CA94C18757FEF998C72C57A.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/DestructibleCube.uasset'
+[2014.10.04-14.29.55:777][257]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-14.29.55:777][257]Aligned camera to fit all selected actors.
+[2014.10.04-14.30.16:121][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.04-14.30.16:121][834]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.30.19:336][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000018D1C3600
+[2014.10.04-14.30.19:758][899]LogSavePackage: Save=64.284210ms
+[2014.10.04-14.30.19:758][899]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map9290A03C4D91E0805B3C4E9F856E35A3.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-14.30.19:838][899]LogFileHelpers: Saving map 'Example_Map' took 0.462
+[2014.10.04-14.30.19:844][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Basic/Wall" FILE="../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Wall.uasset" SILENT=true
+[2014.10.04-14.30.19:875][899]LogSavePackage: Save=26.119797ms
+[2014.10.04-14.30.19:875][899]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/WallD02622D947BB13376BCE4DA113BA8EA3.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Wall.uasset'
+[2014.10.04-14.30.23:497][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.04-14.30.32:049][380]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.30.35:012][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.04-14.30.35:013][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.10.04-14.30.35:047][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000197467600
+[2014.10.04-14.30.36:580][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Basic/Lava" FILE="../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Lava.uasset" SILENT=true
+[2014.10.04-14.30.36:728][448]LogSavePackage: Save=144.589996ms
+[2014.10.04-14.30.36:728][448]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/LavaC010210F42F92E76E5D901825B097CA7.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Lava.uasset'
+[2014.10.04-14.31.03:318][261]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.04-14.31.03:708][274]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.31.08:752][533]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.04-14.31.09:395][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-14.31.14:102][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.10.04-14.31.14:103][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.10.04-15.17.53:506][ 94]Cmd: DELETE
+[2014.10.04-15.17.53:506][ 94]Cmd: ACTOR DELETE
+[2014.10.04-15.17.53:547][ 94]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.17.54:121][ 94]LogEditorActor: Deleted 1 Actors (0.615 secs)
+[2014.10.04-15.17.55:739][112]Cmd: DELETE
+[2014.10.04-15.17.55:739][112]Cmd: ACTOR DELETE
+[2014.10.04-15.17.55:740][112]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.17.56:310][112]LogEditorActor: Deleted 1 Actors (0.570 secs)
+[2014.10.04-15.17.57:322][126]Cmd: DELETE
+[2014.10.04-15.17.57:323][126]Cmd: ACTOR DELETE
+[2014.10.04-15.17.57:324][126]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.17.57:760][126]LogEditorActor: Deleted 1 Actors (0.437 secs)
+[2014.10.04-15.17.58:590][139]Cmd: DELETE
+[2014.10.04-15.17.58:590][139]Cmd: ACTOR DELETE
+[2014.10.04-15.17.58:592][139]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.17.58:956][139]LogEditorActor: Deleted 1 Actors (0.365 secs)
+[2014.10.04-15.17.59:920][154]Cmd: DELETE
+[2014.10.04-15.17.59:920][154]Cmd: ACTOR DELETE
+[2014.10.04-15.17.59:922][154]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.18.00:154][154]LogEditorActor: Deleted 1 Actors (0.233 secs)
+[2014.10.04-15.18.02:020][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2014.10.04-15.18.02:398][191]Cmd: DELETE
+[2014.10.04-15.18.02:398][191]Cmd: ACTOR DELETE
+[2014.10.04-15.18.02:399][191]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.02:445][191]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2014.10.04-15.18.03:116][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2014.10.04-15.18.03:778][208]LogSavePackage: Save=83.563477ms
+[2014.10.04-15.18.03:778][208]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map_Auto175F705F04ED4567B9800D8BA6090052B.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2014.10.04-15.18.03:813][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.537
+[2014.10.04-15.18.03:814][208]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.537
+[2014.10.04-15.18.04:564][226]Cmd: DELETE
+[2014.10.04-15.18.04:564][226]Cmd: ACTOR DELETE
+[2014.10.04-15.18.04:566][226]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.04:607][226]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.10.04-15.18.09:999][377]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.10:026][377]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.10.04-15.18.10:574][397]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.10:602][397]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.10.04-15.18.11:130][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.13:873][414]LogEditorActor: Deleted 1 Actors (2.743 secs)
+[2014.10.04-15.18.14:761][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.14:792][444]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.10.04-15.18.15:876][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.15:907][477]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.10.04-15.18.17:043][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.17:074][516]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2014.10.04-15.18.18:057][550]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.18:092][550]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2014.10.04-15.18.19:045][583]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.19:077][583]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.10.04-15.18.20:306][626]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.20:342][626]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.10.04-15.18.21:462][665]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.21:494][665]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.10.04-15.18.22:393][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.22:425][696]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.10.04-15.18.23:341][729]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.23:380][729]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.10.04-15.18.26:061][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.04-15.18.26:093][809]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.10.04-15.18.27:662][862]LogEditorViewport: Clicking on Actor (LMB): IndestructibleCube_C (IndestructibleCube)
+[2014.10.04-15.18.30:012][940]Cmd: DELETE
+[2014.10.04-15.18.30:012][940]Cmd: ACTOR DELETE
+[2014.10.04-15.18.30:013][940]LogEditorActor: Deleted Actor: IndestructibleCube_C
+[2014.10.04-15.18.30:049][940]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.10.04-15.18.38:737][251]Cmd: DELETE
+[2014.10.04-15.18.38:737][251]Cmd: ACTOR DELETE
+[2014.10.04-15.18.38:738][251]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.18.38:975][251]LogEditorActor: Deleted 1 Actors (0.238 secs)
+[2014.10.04-15.18.39:788][274]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (TemplateCube_Rounded_DM_2)
+[2014.10.04-15.18.40:327][287]Cmd: DELETE
+[2014.10.04-15.18.40:327][287]Cmd: ACTOR DELETE
+[2014.10.04-15.18.40:328][287]LogEditorActor: Deleted Actor: DestructibleActor
+[2014.10.04-15.18.40:353][287]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.04-15.18.41:014][312]LogEditorViewport: Clicking on Actor (LMB): DestructibleCube_C (DestructibleCube)
+[2014.10.04-15.18.41:240][320]Cmd: DELETE
+[2014.10.04-15.18.41:240][320]Cmd: ACTOR DELETE
+[2014.10.04-15.18.41:241][320]LogEditorActor: Deleted Actor: DestructibleCube_C
+[2014.10.04-15.18.41:278][320]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.10.04-15.18.42:049][348]LogEditorViewport: Clicking on Actor (LMB): Lava_C (Lava)
+[2014.10.04-15.18.43:284][391]LogEditorViewport: Clicking on Actor (LMB): Lava_C (Lava)
+[2014.10.04-15.19.02:180][908]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.04-15.19.02:180][908]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.04-15.19.05:959][958]LogSavePackage: Save=54.312031ms
+[2014.10.04-15.19.05:959][958]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map3AB6E57748026E7E03AE52B3CAF33125.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-15.19.06:011][958]LogFileHelpers: Saving map 'Example_Map' took 0.737
+[2014.10.04-15.19.06:045][958]LogSavePackage: Save=22.740997ms
+[2014.10.04-15.19.06:045][958]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Window530705DE43BE083CDDA3889BD2D8C1FF.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/Window.uasset'
+[2014.10.04-15.19.33:577][862]LogEditorActor: Deleted Actor: Window_C
+[2014.10.04-15.19.33:623][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000019BE63600
+[2014.10.04-15.19.33:628][862]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2014.10.04-15.19.42:183][991]LogSavePackage: Save=56.689098ms
+[2014.10.04-15.19.42:183][991]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map50F5F5E24EA0A3FE48D891A37AB2E2D8.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-15.19.42:226][991]LogFileHelpers: Saving map 'Example_Map' took 0.491
+[2014.10.04-15.19.49:691][161]Cmd: DELETE
+[2014.10.04-15.19.49:691][161]Cmd: ACTOR DELETE
+[2014.10.04-15.19.49:693][161]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.19.49:693][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.10.04-15.19.49:915][161]LogEditorActor: Deleted 1 Actors (0.223 secs)
+[2014.10.04-15.20.04:684][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.20.04:684][635]Aligned camera to fit all selected actors.
+[2014.10.04-15.20.11:842][908]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.20.11:842][908]Aligned camera to fit all selected actors.
+[2014.10.04-15.20.19:249][182]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.20.19:249][182]Aligned camera to fit all selected actors.
+[2014.10.04-15.20.29:552][577]Cmd: TRANSACTION UNDO
+[2014.10.04-15.20.29:552][577]LogEditorTransaction: Undo Scale Actors
+[2014.10.04-15.20.29:552][577]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.Wall_2.TRASH_SceneComponent_12) Trying to register component with IsPendingKill() == true. Aborting.
+[2014.10.04-15.20.32:037][647]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.20.32:037][647]Aligned camera to fit all selected actors.
+[2014.10.04-15.20.45:099][133]LogEditorActor: Deleted Actor: Wall_C
+[2014.10.04-15.20.45:138][133]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2014.10.04-15.20.47:606][230]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.20.47:606][230]Aligned camera to fit all selected actors.
+[2014.10.04-15.21.01:977][681]LogEditorActor: Deleted Actor: DestructibleActor
+[2014.10.04-15.21.02:011][681]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2014.10.04-15.21.03:427][723]LogEditorActor: Deleted Actor: DestructibleActor
+[2014.10.04-15.21.03:464][723]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.10.04-15.21.23:657][328]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.21.23:657][328]Aligned camera to fit all selected actors.
+[2014.10.04-15.21.26:514][429]LogEditorActor: Deleted Actor: Brush
+[2014.10.04-15.21.26:712][429]LogEditorActor: Deleted 1 Actors (0.198 secs)
+[2014.10.04-15.21.31:145][580]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.04-15.21.31:145][580]Aligned camera to fit all selected actors.
+[2014.10.04-15.21.35:384][703]LogSavePackage: Save=44.749580ms
+[2014.10.04-15.21.35:384][703]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map28B3524848614F60D1AF0183E2B61E34.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.04-15.21.35:426][703]LogFileHelpers: Saving map 'Example_Map' took 0.401
+[2014.10.04-15.21.36:017][719]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.04-15.21.36:017][719]PIE: New page: PIE session: Example_Map (Oct 4, 2014, 7:21:36 PM)
+[2014.10.04-15.21.36:054][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036738s)
+[2014.10.04-15.21.36:055][719]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2014.10.04-15.21.36:055][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.038501s)
+[2014.10.04-15.21.36:088][719]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-15.21.36:090][719]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-15.21.36:092][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-17.21.36
+[2014.10.04-15.21.36:092][719]LogWorld: Bringing up level for play took: 0.002249
+[2014.10.04-15.21.36:094][719]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.947
+[2014.10.04-15.21.52:191][454]LogPackageName: SearchForPackageOnDisk took   2.025s to resolve Example_Map.umap
+[2014.10.04-15.21.52:327][455]LogPackageName: SearchForPackageOnDisk took   0.123s to resolve Example_Map.umap
+[2014.10.04-15.21.52:327][455]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.04-15.21.52:327][455]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.04-15.21.52:354][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000198A8F9C0
+[2014.10.04-15.21.52:356][455]Cmd: MEM
+[2014.10.04-15.21.52:382][455]LogMemory: Platform Memory Stats for Windows
+[2014.10.04-15.21.52:382][455]LogMemory: Process Physical Memory: 592.85 MB used, 609.88 MB peak
+[2014.10.04-15.21.52:382][455]LogMemory: Process Virtual Memory: 503.38 MB used, 518.80 MB peak
+[2014.10.04-15.21.52:382][455]LogMemory: Physical Memory: 4259.18 MB used, 8104.27 MB total
+[2014.10.04-15.21.52:382][455]LogMemory: Virtual Memory: 1011.46 MB used, 134217728.00 MB total
+[2014.10.04-15.21.52:382][455]LogMemory: 
+[2014.10.04-15.21.52:382][455]Allocator Stats for TBB: (not implemented)
+[2014.10.04-15.21.52:412][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030155s)
+[2014.10.04-15.21.52:413][455]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2014.10.04-15.21.52:414][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.031787s)
+[2014.10.04-15.21.52:414][455]LogWorld: Game class is 'MyGame_C'
+[2014.10.04-15.21.52:416][455]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.04-15.21.52:417][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.04-17.21.52
+[2014.10.04-15.21.52:417][455]LogWorld: Bringing up level for play took: 0.001843
+[2014.10.04-15.21.54:325][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000193550900
+[2014.10.04-15.38.41:006][544]Cmd: QUIT_EDITOR
+[2014.10.04-15.38.41:683][544]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.04-15.38.41:961][544]LogExit: Preparing to exit.
+[2014.10.04-15.38.43:248][544]LogExit: Editor shut down
+[2014.10.04-15.38.43:251][544]LogExit: Transaction tracking system shut down
+[2014.10.04-15.38.43:254][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001891B5BC0
+[2014.10.04-15.38.43:255][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001FE2FDD00
+[2014.10.04-15.38.43:255][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001FE2FDA80
+[2014.10.04-15.38.43:257][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001FEEF37E0
+[2014.10.04-15.38.43:257][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001FEEF36A0
+[2014.10.04-15.38.44:823][544]LogExit: Object subsystem successfully closed.
+[2014.10.04-15.38.46:342][544]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.10.04-15.38.46:492][544]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.10.04-15.38.46:492][544]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.10.04-15.38.46:536][544]LogModuleManager: Shutting down and abandoning module EditorWidgets (150)
+[2014.10.04-15.38.46:537][544]LogModuleManager: Shutting down and abandoning module CollectionManager (149)
+[2014.10.04-15.38.46:565][544]LogModuleManager: Shutting down and abandoning module SceneOutliner (148)
+[2014.10.04-15.38.46:565][544]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.10.04-15.38.46:660][544]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.10.04-15.38.46:660][544]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.10.04-15.38.46:900][544]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module AutomationWorker (138)
+[2014.10.04-15.38.46:934][544]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (137)
+[2014.10.04-15.38.46:975][544]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (136)
+[2014.10.04-15.38.47:081][544]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (135)
+[2014.10.04-15.38.47:114][544]LogModuleManager: Shutting down and abandoning module UndoHistory (134)
+[2014.10.04-15.38.47:114][544]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (133)
+[2014.10.04-15.38.47:114][544]LogModuleManager: Shutting down and abandoning module UserFeedback (132)
+[2014.10.04-15.38.47:114][544]LogModuleManager: Shutting down and abandoning module XmlParser (131)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module Blutility (130)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (129)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (128)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (125)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (124)
+[2014.10.04-15.38.47:147][544]LogModuleManager: Shutting down and abandoning module InputBindingEditor (123)
+[2014.10.04-15.38.47:265][544]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (122)
+[2014.10.04-15.38.47:265][544]LogModuleManager: Shutting down and abandoning module SettingsEditor (121)
+[2014.10.04-15.38.47:311][544]LogModuleManager: Shutting down and abandoning module SessionLauncher (120)
+[2014.10.04-15.38.47:368][544]LogModuleManager: Shutting down and abandoning module SessionFrontend (119)
+[2014.10.04-15.38.47:415][544]LogModuleManager: Shutting down and abandoning module ProfilerClient (118)
+[2014.10.04-15.38.47:455][544]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (117)
+[2014.10.04-15.38.47:455][544]LogModuleManager: Shutting down and abandoning module DeviceManager (116)
+[2014.10.04-15.38.47:489][544]LogModuleManager: Shutting down and abandoning module AutomationController (115)
+[2014.10.04-15.38.47:533][544]LogModuleManager: Shutting down and abandoning module AutomationWindow (114)
+[2014.10.04-15.38.47:542][544]LogModuleManager: Shutting down and abandoning module Layers (113)
+[2014.10.04-15.38.47:542][544]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (112)
+[2014.10.04-15.38.47:542][544]LogModuleManager: Shutting down and abandoning module DetailCustomizations (111)
+[2014.10.04-15.38.47:568][544]LogModuleManager: Shutting down and abandoning module PackagesDialog (110)
+[2014.10.04-15.38.47:569][544]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (109)
+[2014.10.04-15.38.47:572][544]LogModuleManager: Shutting down and abandoning module AssetRegistry (108)
+[2014.10.04-15.38.47:630][544]LogModuleManager: Shutting down and abandoning module Persona (107)
+[2014.10.04-15.38.47:851][544]LogModuleManager: Shutting down and abandoning module GraphEditor (106)
+[2014.10.04-15.38.47:851][544]LogModuleManager: Shutting down and abandoning module ClassViewer (105)
+[2014.10.04-15.38.47:851][544]LogModuleManager: Shutting down and abandoning module Toolbox (104)
+[2014.10.04-15.38.47:851][544]LogModuleManager: Shutting down and abandoning module ModuleUI (103)
+[2014.10.04-15.38.47:875][544]LogModuleManager: Shutting down and abandoning module Sequencer (102)
+[2014.10.04-15.38.47:997][544]LogModuleManager: Shutting down and abandoning module MovieSceneTools (101)
+[2014.10.04-15.38.48:139][544]LogModuleManager: Shutting down and abandoning module OutputLog (100)
+[2014.10.04-15.38.48:139][544]LogModuleManager: Shutting down and abandoning module GammaUI (99)
+[2014.10.04-15.38.48:159][544]LogModuleManager: Shutting down and abandoning module Documentation (98)
+[2014.10.04-15.38.48:159][544]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2014.10.04-15.38.48:159][544]LogModuleManager: Shutting down and abandoning module DesktopPlatform (96)
+[2014.10.04-15.38.48:198][544]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (95)
+[2014.10.04-15.38.48:232][544]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2014.10.04-15.38.48:232][544]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2014.10.04-15.38.48:232][544]LogModuleManager: Shutting down and abandoning module GameplayDebugger (92)
+[2014.10.04-15.38.48:232][544]LogModuleManager: Shutting down and abandoning module AIModule (91)
+[2014.10.04-15.38.48:282][544]LogModuleManager: Shutting down and abandoning module ProfilerService (90)
+[2014.10.04-15.38.48:606][544]LogModuleManager: Shutting down and abandoning module TaskGraph (89)
+[2014.10.04-15.38.48:688][544]LogModuleManager: Shutting down and abandoning module SlateRemote (88)
+[2014.10.04-15.38.48:688][544]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (87)
+[2014.10.04-15.38.48:688][544]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (86)
+[2014.10.04-15.38.48:688][544]LogModuleManager: Shutting down and abandoning module CableComponent (85)
+[2014.10.04-15.38.48:688][544]LogModuleManager: Shutting down and abandoning module OculusRift (84)
+[2014.10.04-15.38.48:841][544]LogModuleManager: Shutting down and abandoning module MessagingDebugger (83)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module ViewportSnapping (82)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module SmartSnapping (81)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (80)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (79)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (78)
+[2014.10.04-15.38.48:941][544]LogModuleManager: Shutting down and abandoning module Matinee (77)
+[2014.10.04-15.38.48:964][544]LogModuleManager: Shutting down and abandoning module Kismet (76)
+[2014.10.04-15.38.49:003][544]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2014.10.04-15.38.49:035][544]LogModuleManager: Shutting down and abandoning module LevelEditor (74)
+[2014.10.04-15.38.49:086][544]LogModuleManager: Shutting down and abandoning module IntroTutorials (73)
+[2014.10.04-15.38.49:164][544]LogModuleManager: Shutting down and abandoning module ContentBrowser (72)
+[2014.10.04-15.38.49:164][544]LogModuleManager: Shutting down and abandoning module PropertyEditor (71)
+[2014.10.04-15.38.49:164][544]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2014.10.04-15.38.49:299][544]LogModuleManager: Shutting down and abandoning module Paper2DEditor (69)
+[2014.10.04-15.38.49:403][544]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (68)
+[2014.10.04-15.38.49:417][544]LogModuleManager: Shutting down and abandoning module PluginsEditor (67)
+[2014.10.04-15.38.49:472][544]LogModuleManager: Shutting down and abandoning module MainFrame (66)
+[2014.10.04-15.38.49:472][544]LogModuleManager: Shutting down and abandoning module EpicSurvey (65)
+[2014.10.04-15.38.49:515][544]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (64)
+[2014.10.04-15.38.49:515][544]LogModuleManager: Shutting down and abandoning module UObjectPlugin (63)
+[2014.10.04-15.38.49:515][544]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (62)
+[2014.10.04-15.38.49:710][544]LogModuleManager: Shutting down and abandoning module SourceControl (61)
+[2014.10.04-15.38.49:710][544]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (60)
+[2014.10.04-15.38.49:795][544]LogModuleManager: Shutting down and abandoning module BlankPlugin (59)
+[2014.10.04-15.38.49:795][544]LogModuleManager: Shutting down and abandoning module ScriptPlugin (58)
+[2014.10.04-15.38.49:850][544]LogModuleManager: Shutting down and abandoning module UdpMessaging (57)
+[2014.10.04-15.38.49:953][544]LogModuleManager: Shutting down and abandoning module Paper2D (56)
+[2014.10.04-15.38.49:974][544]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (55)
+[2014.10.04-15.38.50:046][544]LogModuleManager: Shutting down and abandoning module ImageWrapper (54)
+[2014.10.04-15.38.50:046][544]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (53)
+[2014.10.04-15.38.50:046][544]LogModuleManager: Shutting down and abandoning module FunctionalTesting (52)
+[2014.10.04-15.38.50:077][544]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (51)
+[2014.10.04-15.38.50:146][544]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (50)
+[2014.10.04-15.38.50:146][544]LogModuleManager: Shutting down and abandoning module MessageLog (49)
+[2014.10.04-15.38.50:146][544]LogModuleManager: Shutting down and abandoning module UMGEditor (48)
+[2014.10.04-15.38.50:231][544]LogModuleManager: Shutting down and abandoning module UMG (47)
+[2014.10.04-15.38.50:265][544]LogModuleManager: Shutting down and abandoning module Slate (46)
+[2014.10.04-15.38.50:265][544]LogModuleManager: Shutting down and abandoning module EditorStyle (45)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module SessionServices (44)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (43)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (42)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module XAudio2 (41)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module Networking (39)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module Core (38)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module KismetCompiler (37)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module PhysXFormats (36)
+[2014.10.04-15.38.50:267][544]LogModuleManager: Shutting down and abandoning module MeshUtilities (35)
+[2014.10.04-15.38.50:339][544]LogModuleManager: Shutting down and abandoning module DerivedDataCache (34)
+[2014.10.04-15.38.50:364][544]LogDerivedDataCache: Shutdown
+[2014.10.04-15.38.50:364][544]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (33)
+[2014.10.04-15.38.50:416][544]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (32)
+[2014.10.04-15.38.50:458][544]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (31)
+[2014.10.04-15.38.50:510][544]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (30)
+[2014.10.04-15.38.50:510][544]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (29)
+[2014.10.04-15.38.50:525][544]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (28)
+[2014.10.04-15.38.50:558][544]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (27)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (26)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (25)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module Messaging (24)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (23)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (21)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (20)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (19)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module TargetPlatform (18)
+[2014.10.04-15.38.50:566][544]LogModuleManager: Shutting down and abandoning module InputCore (17)
+[2014.10.04-15.38.50:567][544]LogModuleManager: Shutting down and abandoning module Settings (16)
+[2014.10.04-15.38.50:567][544]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.04-15.38.50:567][544]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.04-15.38.50:577][544]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.04-15.38.50:577][544]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.04-15.38.50:613][544]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.04-15.38.50:644][544]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.04-15.38.50:660][544]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.04-15.38.50:674][544]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.04-15.38.50:711][544]LogExit: Exiting.
+[2014.10.04-15.38.50:747][544]Log file closed, 10/04/14 17:38:50
