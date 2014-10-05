@@ -1,0 +1,664 @@
+Log file open, 10/05/14 19:13:02
+LogInit:Display: Running engine for game: RocketJumpPrototype
+LogInit: Version: 4.4.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 30 2014 23:47:50
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.10.05-17.13.02:917][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.05-17.13.02:951][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.05-17.13.02:964][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.05-17.13.02:970][  0]LogInit: Object subsystem initialized
+[2014.10.05-17.13.02:972][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.05-17.13.02:972][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.05-17.13.02:999][  0]LogInit: Computer: HAL
+[2014.10.05-17.13.02:999][  0]LogInit: User: Micha
+[2014.10.05-17.13.03:002][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.05-17.13.03:002][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2014.10.05-17.13.03:002][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.05-17.13.03:003][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.13.03:003][  0]LogMemory: Process Physical Memory: 59.52 MB used, 59.52 MB peak
+[2014.10.05-17.13.03:003][  0]LogMemory: Process Virtual Memory: 35.84 MB used, 35.84 MB peak
+[2014.10.05-17.13.03:003][  0]LogMemory: Physical Memory: 3633.58 MB used, 8104.27 MB total
+[2014.10.05-17.13.03:003][  0]LogMemory: Virtual Memory: 259.40 MB used, 134217728.00 MB total
+[2014.10.05-17.13.03:039][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.10.05-17.13.03:039][  0]LogD3D11RHI: Adapter has 1016MB of dedicated video memory, 0MB of dedicated system memory, and 4052MB of shared system memory, 2 output[s]
+[2014.10.05-17.13.03:041][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.05-17.13.03:041][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.05-17.13.03:041][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.05-17.13.03:046][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.05-17.13.03:059][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.05-17.13.03:108][  0]LogTextLocalizationManager:Warning: The selected culture 'pl_PL' is not available; falling back to 'en'
+[2014.10.05-17.13.03:177][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.05-17.13.04:342][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-17.13.04:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-17.13.04:916][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache: Loaded boot cache 0.61s 39MB ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc.
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.05-17.13.05:527][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.10.05-17.13.05:540][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.10.05-17.13.05:540][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.10.05-17.13.05:540][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.10.05-17.13.05:802][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.05-17.13.05:802][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.05-17.13.06:311][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.05-17.13.07:204][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3c0c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_3d30_0///////STATCAT_Advanced////
+[2014.10.05-17.13.07:204][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.05-17.13.07:356][  0]SourceControl: Info Source control is disabled
+[2014.10.05-17.13.07:356][  0]SourceControl: Info Source control is disabled
+[2014.10.05-17.13.07:367][  0]SourceControl: Info Source control is disabled
+[2014.10.05-17.13.07:660][  0]BlueprintLog: New page: Editor Load
+[2014.10.05-17.13.07:841][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.05-17.13.07:841][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.05-17.13.08:077][  0]LogEngine: Initializing Engine...
+[2014.10.05-17.13.08:212][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.05-17.13.08:248][  0]LogInit: FAudioDevice initialized.
+[2014.10.05-17.13.08:278][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.05-17.13.08:305][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB ../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/DerivedDataCache/Boot.ddc.
+[2014.10.05-17.13.08:311][  0]LogInit: Texture streaming: Enabled
+[2014.10.05-17.13.08:360][  0]LogInit: Transaction tracking system initialized
+[2014.10.05-17.13.08:538][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2014.10.05-17.13.09:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-17.13.09:575][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-17.13.09:627][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/' was not found.
+[2014.10.05-17.13.09:637][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'C:/Unreal Engine/Unreal Engine 4.4.0/Unreal Engine/Engine/Binaries/Win64/' was not found.
+[2014.10.05-17.13.09:768][  0]LogConsoleResponse:Display: 
+[2014.10.05-17.13.10:069][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_45fc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_3d30_0///////STATCAT_Advanced////
+[2014.10.05-17.13.10:069][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1be4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_3d30_0///////STATCAT_Advanced////
+[2014.10.05-17.13.10:069][  0]SourceControl: Info Source control is disabled
+[2014.10.05-17.13.10:069][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.05-17.13.10:070][  0]LightingResults: New page: Lighting Build
+[2014.10.05-17.13.10:084][  0]MapCheck: New page: Map Check
+[2014.10.05-17.13.10:084][  0]LightingResults: New page: Lighting Build
+[2014.10.05-17.13.10:097][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001613FDD1C0
+[2014.10.05-17.13.10:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.05-17.13.10:465][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.13.10:465][  0]Cmd: MAP CHECKDEP
+[2014.10.05-17.13.10:465][  0]MapCheck: New page: Example_Map - Oct 5, 2014, 9:13:10 PM
+[2014.10.05-17.13.10:668][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [202.616ms] ==========
+[2014.10.05-17.13.10:668][  0]LogFileHelpers: Loading map 'Example_Map' took 0.598
+[2014.10.05-17.13.10:911][  0]LogCollectionManager: Loaded 0 collections in 0.001881 seconds
+[2014.10.05-17.13.10:988][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.05-17.13.11:034][  0]LogInit: Using libcurl 7.34.0
+[2014.10.05-17.13.11:034][  0]LogInit:  - built for x86_64-pc-win32
+[2014.10.05-17.13.11:034][  0]LogInit:  - supports SSL with WinSSL
+[2014.10.05-17.13.11:034][  0]LogInit:  - other features:
+[2014.10.05-17.13.11:034][  0]LogInit:      CURL_VERSION_SSL
+[2014.10.05-17.13.11:034][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.10.05-17.13.11:034][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.10.05-17.13.11:034][  0]LogInit:      CURL_VERSION_IDN
+[2014.10.05-17.13.11:034][  0]LogInit: Libcurl will NOT reuse connections
+[2014.10.05-17.13.11:062][  0]LogLoad: Full Startup: 9.33 seconds (BP compile: 0.07 seconds)
+[2014.10.05-17.13.11:095][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.05-17.13.11:540][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.10.05-17.13.11:667][  0]LogRenderer:Warning: Reallocating scene render targets to support 832x896.
+[2014.10.05-17.13.12:175][  3]LogAssetRegistry: Asset discovery search completed in 3.6477 seconds
+[2014.10.05-17.14.11:180][502]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.14.11:180][502]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.14.11:297][502]LogPlayLevel: PIE:  Blueprint regeneration took 117 ms (1 blueprints)
+[2014.10.05-17.14.11:298][502]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:14:11 PM)
+[2014.10.05-17.14.11:345][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047461s)
+[2014.10.05-17.14.11:346][502]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2014.10.05-17.14.11:346][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048761s)
+[2014.10.05-17.14.11:613][502]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.05-17.14.11:613][502]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.05-17.14.11:615][502]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.14.11:617][502]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.14.11:641][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.14.11
+[2014.10.05-17.14.11:642][502]LogWorld: Bringing up level for play took: 0.025140
+[2014.10.05-17.14.11:643][502]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.725
+[2014.10.05-17.14.25:681][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000160E7AB2E0
+[2014.10.05-17.14.41:332][498]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.05-17.14.45:768][587]LogRenderer:Warning: Reallocating scene render targets to support 1264x896.
+[2014.10.05-17.14.58:785][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.05-17.14.58:785][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.05-17.14.59:110][815]LogSavePackage: Save=207.189331ms
+[2014.10.05-17.14.59:110][815]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacterEF9A108848C97D68925E2BB29DF66B0A.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.05-17.15.02:020][867]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.15.02:060][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.05-17.15.02:060][867]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.10.05-17.15.02:200][867]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.15.02:263][867]LogPlayLevel: PIE:  Blueprint regeneration took 243 ms (2 blueprints)
+[2014.10.05-17.15.02:264][867]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:15:02 PM)
+[2014.10.05-17.15.02:311][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047279s)
+[2014.10.05-17.15.02:312][867]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2014.10.05-17.15.02:312][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.048473s)
+[2014.10.05-17.15.02:340][867]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.15.02:341][867]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.15.02:346][867]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.15.02
+[2014.10.05-17.15.02:347][867]LogWorld: Bringing up level for play took: 0.006036
+[2014.10.05-17.15.02:348][867]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.569
+[2014.10.05-17.15.21:168][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.05-17.15.21:213][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000160FA665C0
+[2014.10.05-17.17.45:016][ 47]Cmd: DELETE
+[2014.10.05-17.17.45:016][ 47]Cmd: ACTOR DELETE
+[2014.10.05-17.17.45:022][ 47]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.17.45:022][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.05-17.17.45:022][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.05-17.17.45:110][ 47]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2014.10.05-17.17.45:903][ 60]Cmd: DELETE
+[2014.10.05-17.17.45:903][ 60]Cmd: ACTOR DELETE
+[2014.10.05-17.17.45:904][ 60]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.17.45:996][ 60]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2014.10.05-17.17.52:066][159]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.17.52:066][159]Aligned camera to fit all selected actors.
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_5.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_37.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_20.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_19.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_18.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_16.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_15.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_12.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.18.16:232][555]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.18.18:254][588]Cmd: TRANSACTION UNDO
+[2014.10.05-17.18.18:254][588]LogEditorTransaction: Undo Move Actors
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_5.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_37.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_20.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_19.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_18.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_16.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_15.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_12.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.18.24:293][690]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_13.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_5.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_37.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_20.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_19.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_18.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_16.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_15.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_12.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.19.04:905][367]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.19.21:557][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.05-17.19.22:025][643]LogSavePackage: Save=71.387489ms
+[2014.10.05-17.19.22:025][643]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapB656170C4D6817F3A8DFC0AB1F3B2A22.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.19.22:085][643]LogFileHelpers: Saving map 'Example_Map' took 0.389
+[2014.10.05-17.19.22:347][643]LogSavePackage: Save=216.967316ms
+[2014.10.05-17.19.22:347][643]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacter95C04DC347F6AA5664123A95D4BBD2E5.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.05-17.19.22:604][650]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.19.22:634][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.05-17.19.22:634][650]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.10.05-17.19.22:777][650]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.19.22:840][650]LogPlayLevel: PIE:  Blueprint regeneration took 235 ms (2 blueprints)
+[2014.10.05-17.19.22:840][650]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:19:22 PM)
+[2014.10.05-17.19.22:889][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049054s)
+[2014.10.05-17.19.22:890][650]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2014.10.05-17.19.22:890][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050145s)
+[2014.10.05-17.19.22:922][650]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.19.22:923][650]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.19.22:929][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.19.22
+[2014.10.05-17.19.22:930][650]LogWorld: Bringing up level for play took: 0.006761
+[2014.10.05-17.19.22:931][650]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.013
+[2014.10.05-17.19.26:387][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.10.05-17.19.26:451][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001626D41D00
+[2014.10.05-17.19.45:392][105]Cmd: TRANSACTION UNDO
+[2014.10.05-17.19.45:392][105]LogEditorTransaction: Undo Move Actors
+[2014.10.05-17.19.49:513][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.05-17.20.03:899][165]LogSavePackage: Save=14034.177734ms
+[2014.10.05-17.20.03:899][165]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map40DB68A04EDD8B5E729E5B9A8F161B0F.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.20.03:954][165]LogFileHelpers: Saving map 'Example_Map' took 14.330
+[2014.10.05-17.20.04:206][165]LogSavePackage: Save=209.891541ms
+[2014.10.05-17.20.04:206][165]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacterA8044E344EE24B4AC611ECA3BEB08192.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.05-17.20.07:010][212]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.20.07:046][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.05-17.20.07:046][212]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.10.05-17.20.07:170][212]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.20.07:233][212]LogPlayLevel: PIE:  Blueprint regeneration took 223 ms (2 blueprints)
+[2014.10.05-17.20.07:233][212]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:20:07 PM)
+[2014.10.05-17.20.07:284][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050836s)
+[2014.10.05-17.20.07:285][212]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2014.10.05-17.20.07:285][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.052073s)
+[2014.10.05-17.20.07:317][212]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.20.07:318][212]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.20.07:326][212]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.20.07
+[2014.10.05-17.20.07:327][212]LogWorld: Bringing up level for play took: 0.009108
+[2014.10.05-17.20.07:329][212]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.411
+[2014.10.05-17.20.40:209][559]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve Example_Map.umap
+[2014.10.05-17.20.40:309][560]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Example_Map.umap
+[2014.10.05-17.20.40:309][560]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.20.40:309][560]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.20.40:310][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.10.05-17.20.40:331][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001623C1EDE0
+[2014.10.05-17.20.40:331][560]Cmd: MEM
+[2014.10.05-17.20.40:348][560]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.20.40:348][560]LogMemory: Process Physical Memory: 534.06 MB used, 567.00 MB peak
+[2014.10.05-17.20.40:348][560]LogMemory: Process Virtual Memory: 448.61 MB used, 484.70 MB peak
+[2014.10.05-17.20.40:348][560]LogMemory: Physical Memory: 3641.30 MB used, 8104.27 MB total
+[2014.10.05-17.20.40:348][560]LogMemory: Virtual Memory: 936.61 MB used, 134217728.00 MB total
+[2014.10.05-17.20.40:348][560]LogMemory: 
+[2014.10.05-17.20.40:348][560]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.20.40:397][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048842s)
+[2014.10.05-17.20.40:398][560]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2014.10.05-17.20.40:398][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050067s)
+[2014.10.05-17.20.40:399][560]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.20.40:400][560]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.20.40:405][560]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.20.40
+[2014.10.05-17.20.40:406][560]LogWorld: Bringing up level for play took: 0.006306
+[2014.10.05-17.21.20:236][175]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Example_Map.umap
+[2014.10.05-17.21.20:332][176]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve Example_Map.umap
+[2014.10.05-17.21.20:332][176]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.21.20:332][176]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.21.20:354][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001622D32B60
+[2014.10.05-17.21.20:354][176]Cmd: MEM
+[2014.10.05-17.21.20:372][176]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.21.20:372][176]LogMemory: Process Physical Memory: 533.49 MB used, 567.00 MB peak
+[2014.10.05-17.21.20:372][176]LogMemory: Process Virtual Memory: 448.07 MB used, 484.70 MB peak
+[2014.10.05-17.21.20:372][176]LogMemory: Physical Memory: 3636.45 MB used, 8104.27 MB total
+[2014.10.05-17.21.20:372][176]LogMemory: Virtual Memory: 941.43 MB used, 134217728.00 MB total
+[2014.10.05-17.21.20:372][176]LogMemory: 
+[2014.10.05-17.21.20:372][176]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.21.20:421][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049391s)
+[2014.10.05-17.21.20:422][176]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2014.10.05-17.21.20:423][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.050615s)
+[2014.10.05-17.21.20:423][176]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.21.20:424][176]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.21.20:433][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.21.20
+[2014.10.05-17.21.20:434][176]LogWorld: Bringing up level for play took: 0.009534
+[2014.10.05-17.21.33:272][693]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve Example_Map.umap
+[2014.10.05-17.21.33:366][694]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve Example_Map.umap
+[2014.10.05-17.21.33:366][694]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.21.33:367][694]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.21.33:388][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001622D33E20
+[2014.10.05-17.21.33:388][694]Cmd: MEM
+[2014.10.05-17.21.33:408][694]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.21.33:409][694]LogMemory: Process Physical Memory: 533.65 MB used, 567.00 MB peak
+[2014.10.05-17.21.33:409][694]LogMemory: Process Virtual Memory: 448.26 MB used, 484.70 MB peak
+[2014.10.05-17.21.33:409][694]LogMemory: Physical Memory: 3655.66 MB used, 8104.27 MB total
+[2014.10.05-17.21.33:409][694]LogMemory: Virtual Memory: 936.61 MB used, 134217728.00 MB total
+[2014.10.05-17.21.33:409][694]LogMemory: 
+[2014.10.05-17.21.33:409][694]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.21.33:457][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048741s)
+[2014.10.05-17.21.33:458][694]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2014.10.05-17.21.33:458][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049930s)
+[2014.10.05-17.21.33:459][694]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.21.33:460][694]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.21.33:466][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.21.33
+[2014.10.05-17.21.33:467][694]LogWorld: Bringing up level for play took: 0.006457
+[2014.10.05-17.21.53:186][507]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve Example_Map.umap
+[2014.10.05-17.21.53:281][508]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Example_Map.umap
+[2014.10.05-17.21.53:281][508]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.21.53:281][508]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.21.53:303][508]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001622D32AC0
+[2014.10.05-17.21.53:303][508]Cmd: MEM
+[2014.10.05-17.21.53:321][508]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.21.53:321][508]LogMemory: Process Physical Memory: 533.75 MB used, 567.00 MB peak
+[2014.10.05-17.21.53:321][508]LogMemory: Process Virtual Memory: 448.45 MB used, 484.70 MB peak
+[2014.10.05-17.21.53:321][508]LogMemory: Physical Memory: 3635.54 MB used, 8104.27 MB total
+[2014.10.05-17.21.53:321][508]LogMemory: Virtual Memory: 936.61 MB used, 134217728.00 MB total
+[2014.10.05-17.21.53:321][508]LogMemory: 
+[2014.10.05-17.21.53:321][508]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.21.53:368][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047799s)
+[2014.10.05-17.21.53:370][508]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2014.10.05-17.21.53:370][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.049076s)
+[2014.10.05-17.21.53:370][508]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.21.53:371][508]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.21.53:377][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.21.53
+[2014.10.05-17.21.53:378][508]LogWorld: Bringing up level for play took: 0.006355
+[2014.10.05-17.22.12:291][294]LogPackageName: SearchForPackageOnDisk took   0.090s to resolve Example_Map.umap
+[2014.10.05-17.22.12:387][295]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Example_Map.umap
+[2014.10.05-17.22.12:387][295]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.22.12:388][295]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.22.12:409][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001622D33D80
+[2014.10.05-17.22.12:409][295]Cmd: MEM
+[2014.10.05-17.22.12:427][295]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.22.12:427][295]LogMemory: Process Physical Memory: 533.73 MB used, 567.00 MB peak
+[2014.10.05-17.22.12:427][295]LogMemory: Process Virtual Memory: 448.43 MB used, 484.70 MB peak
+[2014.10.05-17.22.12:427][295]LogMemory: Physical Memory: 3631.40 MB used, 8104.27 MB total
+[2014.10.05-17.22.12:427][295]LogMemory: Virtual Memory: 941.43 MB used, 134217728.00 MB total
+[2014.10.05-17.22.12:427][295]LogMemory: 
+[2014.10.05-17.22.12:427][295]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.22.12:477][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050482s)
+[2014.10.05-17.22.12:478][295]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2014.10.05-17.22.12:479][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.051786s)
+[2014.10.05-17.22.12:479][295]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.22.12:480][295]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.22.12:485][295]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.22.12
+[2014.10.05-17.22.12:486][295]LogWorld: Bringing up level for play took: 0.006073
+[2014.10.05-17.22.13:777][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001622D325C0
+[2014.10.05-17.22.23:193][510]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.22.23:193][510]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.22.23:285][510]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2014.10.05-17.22.23:286][510]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:22:23 PM)
+[2014.10.05-17.22.23:341][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054947s)
+[2014.10.05-17.22.23:342][510]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2014.10.05-17.22.23:342][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.056626s)
+[2014.10.05-17.22.23:374][510]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.22.23:375][510]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.22.23:381][510]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.22.23
+[2014.10.05-17.22.23:382][510]LogWorld: Bringing up level for play took: 0.006736
+[2014.10.05-17.22.23:383][510]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.465
+[2014.10.05-17.22.40:336][204]LogPackageName: SearchForPackageOnDisk took   0.093s to resolve Example_Map.umap
+[2014.10.05-17.22.40:430][205]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Example_Map.umap
+[2014.10.05-17.22.40:430][205]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.22.40:430][205]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.22.40:451][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001627B87D80
+[2014.10.05-17.22.40:454][205]Cmd: MEM
+[2014.10.05-17.22.40:473][205]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.22.40:473][205]LogMemory: Process Physical Memory: 542.59 MB used, 572.86 MB peak
+[2014.10.05-17.22.40:473][205]LogMemory: Process Virtual Memory: 459.89 MB used, 488.35 MB peak
+[2014.10.05-17.22.40:473][205]LogMemory: Physical Memory: 3648.64 MB used, 8104.27 MB total
+[2014.10.05-17.22.40:473][205]LogMemory: Virtual Memory: 953.56 MB used, 134217728.00 MB total
+[2014.10.05-17.22.40:473][205]LogMemory: 
+[2014.10.05-17.22.40:473][205]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.22.40:519][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046248s)
+[2014.10.05-17.22.40:520][205]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2014.10.05-17.22.40:520][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047465s)
+[2014.10.05-17.22.40:521][205]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.22.40:522][205]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.22.40:527][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.22.40
+[2014.10.05-17.22.40:528][205]LogWorld: Bringing up level for play took: 0.006374
+[2014.10.05-17.23.33:715][390]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve Example_Map.umap
+[2014.10.05-17.23.33:809][391]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Example_Map.umap
+[2014.10.05-17.23.33:809][391]LogNet: Browse: /Game/Maps/Example_Map
+[2014.10.05-17.23.33:809][391]LogLoad: LoadMap: /Game/Maps/Example_Map
+[2014.10.05-17.23.33:830][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001627B86700
+[2014.10.05-17.23.33:830][391]Cmd: MEM
+[2014.10.05-17.23.33:848][391]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-17.23.33:848][391]LogMemory: Process Physical Memory: 543.48 MB used, 572.86 MB peak
+[2014.10.05-17.23.33:848][391]LogMemory: Process Virtual Memory: 459.66 MB used, 488.35 MB peak
+[2014.10.05-17.23.33:848][391]LogMemory: Physical Memory: 3648.01 MB used, 8104.27 MB total
+[2014.10.05-17.23.33:848][391]LogMemory: Virtual Memory: 953.56 MB used, 134217728.00 MB total
+[2014.10.05-17.23.33:848][391]LogMemory: 
+[2014.10.05-17.23.33:848][391]Allocator Stats for TBB: (not implemented)
+[2014.10.05-17.23.33:895][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046889s)
+[2014.10.05-17.23.33:896][391]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2014.10.05-17.23.33:896][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.047994s)
+[2014.10.05-17.23.33:896][391]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.23.33:897][391]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.23.33:902][391]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.23.33
+[2014.10.05-17.23.33:903][391]LogWorld: Bringing up level for play took: 0.005849
+[2014.10.05-17.23.50:882][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001627B87E20
+[2014.10.05-17.24.01:026][250]Cmd: DELETE
+[2014.10.05-17.24.01:026][250]Cmd: ACTOR DELETE
+[2014.10.05-17.24.01:028][250]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.01:117][250]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2014.10.05-17.24.01:604][258]Cmd: DELETE
+[2014.10.05-17.24.01:604][258]Cmd: ACTOR DELETE
+[2014.10.05-17.24.01:605][258]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.01:676][258]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2014.10.05-17.24.02:254][267]Cmd: DELETE
+[2014.10.05-17.24.02:254][267]Cmd: ACTOR DELETE
+[2014.10.05-17.24.02:255][267]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.02:307][267]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.10.05-17.24.04:774][310]Cmd: DELETE
+[2014.10.05-17.24.04:774][310]Cmd: ACTOR DELETE
+[2014.10.05-17.24.04:776][310]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.04:858][310]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2014.10.05-17.24.06:097][332]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.24.06:097][332]Aligned camera to fit all selected actors.
+[2014.10.05-17.24.07:653][359]Cmd: DELETE
+[2014.10.05-17.24.07:653][359]Cmd: ACTOR DELETE
+[2014.10.05-17.24.07:655][359]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.07:734][359]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2014.10.05-17.24.08:604][374]Cmd: DELETE
+[2014.10.05-17.24.08:604][374]Cmd: ACTOR DELETE
+[2014.10.05-17.24.08:606][374]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.08:684][374]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2014.10.05-17.24.09:092][381]Cmd: DELETE
+[2014.10.05-17.24.09:092][381]Cmd: ACTOR DELETE
+[2014.10.05-17.24.09:095][381]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.24.09:170][381]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2014.10.05-17.24.10:511][404]LogEditorViewport: Clicking on Actor (LMB): DestructibleCube_C (DestructibleCube_3)
+[2014.10.05-17.24.11:678][425]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.24.11:679][425]Aligned camera to fit all selected actors.
+[2014.10.05-17.24.17:496][523]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.24.17:496][523]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.24.17:568][523]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2014.10.05-17.24.17:568][523]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:24:17 PM)
+[2014.10.05-17.24.17:610][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041345s)
+[2014.10.05-17.24.17:611][523]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2014.10.05-17.24.17:611][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042471s)
+[2014.10.05-17.24.17:637][523]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.24.17:638][523]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.24.17:643][523]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.24.17
+[2014.10.05-17.24.17:644][523]LogWorld: Bringing up level for play took: 0.005505
+[2014.10.05-17.24.17:645][523]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.728
+[2014.10.05-17.25.00:758][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000162A925A80
+[2014.10.05-17.25.19:542][618]Cmd: DELETE
+[2014.10.05-17.25.19:542][618]Cmd: ACTOR DELETE
+[2014.10.05-17.25.19:544][618]LogEditorActor: Deleted Actor: Brush
+[2014.10.05-17.25.19:622][618]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2014.10.05-17.25.20:172][628]LogEditorViewport: Clicking on Actor (LMB): DestructibleCube_C (DestructibleCube_3)
+[2014.10.05-17.25.20:286][630]Cmd: DELETE
+[2014.10.05-17.25.20:286][630]Cmd: ACTOR DELETE
+[2014.10.05-17.25.20:286][630]LogEditorActor: Deleted Actor: DestructibleCube_C
+[2014.10.05-17.25.20:347][630]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2014.10.05-17.25.22:255][664]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.25.22:256][664]Aligned camera to fit all selected actors.
+[2014.10.05-17.25.38:169][943]LogEditorViewport: Clicking on Actor (LMB): DestructibleCube_C (DestructibleCube_2)
+[2014.10.05-17.25.48:395][117]LogSavePackage: Save=64.905365ms
+[2014.10.05-17.25.48:395][117]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapBEED1A2A47A143F7821E02BF42AF6CF4.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.25.48:433][117]LogFileHelpers: Saving map 'Example_Map' took 0.321
+[2014.10.05-17.25.58:081][330]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.25.58:081][330]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.25.58:153][330]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2014.10.05-17.25.58:153][330]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:25:58 PM)
+[2014.10.05-17.25.58:191][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038192s)
+[2014.10.05-17.25.58:192][330]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2014.10.05-17.25.58:192][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039369s)
+[2014.10.05-17.25.58:220][330]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.25.58:221][330]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.25.58:244][330]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.25.58
+[2014.10.05-17.25.58:245][330]LogWorld: Bringing up level for play took: 0.023666
+[2014.10.05-17.25.58:246][330]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.672
+[2014.10.05-17.26.04:528][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001627B84400
+[2014.10.05-17.26.12:440][814]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Basic'
+[2014.10.05-17.26.24:122][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.10.05-17.26.24:122][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.10.05-17.26.28:391][ 28]LogSavePackage: Save=55.136410ms
+[2014.10.05-17.26.28:391][ 28]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapE6FC8A7F417C7FE5F5D2699BAA7573E6.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.26.28:425][ 28]LogFileHelpers: Saving map 'Example_Map' took 0.302
+[2014.10.05-17.26.28:671][ 28]LogSavePackage: Save=199.902542ms
+[2014.10.05-17.26.28:671][ 28]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/DestructibleCubeEED4C7CD41D5F7D456C3B094D74DC858.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/Basic/DestructibleCube.uasset'
+[2014.10.05-17.26.29:342][ 37]BlueprintLog: New page: Compile DestructibleCube
+[2014.10.05-17.26.29:444][ 37]BlueprintEditorCompileResults: Info [0807.62] Compile of DestructibleCube successful! [in 0 ms]
+[2014.10.05-17.26.36:377][145]LogEditorViewport: Clicking on Actor (LMB): DestructibleCube_C (DestructibleCube)
+[2014.10.05-17.26.37:412][163]Cmd: DELETE
+[2014.10.05-17.26.37:412][163]Cmd: ACTOR DELETE
+[2014.10.05-17.26.37:413][163]LogEditorActor: Deleted Actor: DestructibleCube_C
+[2014.10.05-17.26.37:471][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001629E9F6A0
+[2014.10.05-17.26.37:476][163]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2014.10.05-17.26.50:578][397]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2014.10.05-17.26.54:380][468]Cmd: DELETE
+[2014.10.05-17.26.54:380][468]Cmd: ACTOR DELETE
+[2014.10.05-17.26.54:381][468]LogEditorActor: Deleted Actor: PointLight
+[2014.10.05-17.26.54:450][468]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2014.10.05-17.27.09:242][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.27.09:242][763]Aligned camera to fit all selected actors.
+[2014.10.05-17.27.17:564][901]LogSavePackage: Save=55.237816ms
+[2014.10.05-17.27.17:564][901]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapD86C2E7948D8028BB3D40DB3B057703B.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.27.17:599][901]LogFileHelpers: Saving map 'Example_Map' took 0.314
+[2014.10.05-17.27.21:506][ 39]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.05-17.27.21:506][ 39]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2014.10.05-17.27.21:570][ 39]LogPlayLevel: PIE:  Blueprint regeneration took 64 ms (1 blueprints)
+[2014.10.05-17.27.21:570][ 39]PIE: New page: PIE session: Example_Map (Oct 5, 2014, 9:27:21 PM)
+[2014.10.05-17.27.21:608][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038040s)
+[2014.10.05-17.27.21:609][ 39]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2014.10.05-17.27.21:609][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039242s)
+[2014.10.05-17.27.21:637][ 39]LogWorld: Game class is 'MyGame_C'
+[2014.10.05-17.27.21:638][ 39]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.05-17.27.21:642][ 39]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 60) at 2014.10.05-19.27.21
+[2014.10.05-17.27.21:643][ 39]LogWorld: Bringing up level for play took: 0.005099
+[2014.10.05-17.27.21:644][ 39]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.726
+[2014.10.05-17.27.48:806][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000162A5663E0
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.28.09:612][533]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.28.16:167][640]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.28.23:462][762]Cmd: TRANSACTION UNDO
+[2014.10.05-17.28.23:462][762]LogEditorTransaction: Undo Select Surfaces
+[2014.10.05-17.28.24:346][794]Cmd: TRANSACTION UNDO
+[2014.10.05-17.28.24:346][794]LogEditorTransaction: Undo Select Brush from Surface
+[2014.10.05-17.28.24:978][805]Cmd: TRANSACTION UNDO
+[2014.10.05-17.28.24:978][805]LogEditorTransaction: Undo Move Actors
+[2014.10.05-17.28.42:269][ 91]Cmd: TRANSACTION UNDO
+[2014.10.05-17.28.42:269][ 91]LogEditorTransaction: Undo Rotate Actors
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.28.47:767][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.28.47:768][199]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.29.10:715][583]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.29.10:715][583]Aligned camera to fit all selected actors.
+[2014.10.05-17.29.18:460][713]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.29.18:460][713]Aligned camera to fit all selected actors.
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.29.22:078][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.29.22:079][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.29.22:079][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.29.22:079][773]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.29.40:195][ 79]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-17.29.40:195][ 79]Aligned camera to fit all selected actors.
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.29.48:738][224]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_25.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_24.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_32.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_23.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_29.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_27.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_9.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_8.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_7.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_6.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_4.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_22.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_21.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_2.Model_8
+[2014.10.05-17.30.20:835][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_17.Model_8
+[2014.10.05-17.30.20:836][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_14.Model_8
+[2014.10.05-17.30.20:836][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_11.Model_8
+[2014.10.05-17.30.20:836][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_10.Model_8
+[2014.10.05-17.30.20:836][778]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush_26.Model_8 or Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush.Model_8
+[2014.10.05-17.30.32:365][989]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.05-17.30.50:505][329]LogSavePackage: Save=78.397163ms
+[2014.10.05-17.30.50:505][329]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_Map0C82062E4DDDF38BEAB83DA806317D16.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Maps/Example_Map.umap'
+[2014.10.05-17.30.50:560][329]LogFileHelpers: Saving map 'Example_Map' took 0.400
+[2014.10.05-17.30.50:836][329]LogSavePackage: Save=221.607315ms
+[2014.10.05-17.30.50:836][329]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/MyCharacter83F99E574F5DDBD1709152AAC0076106.tmp' to '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Content/Blueprints/MyCharacter.uasset'
+[2014.10.05-17.31.36:883][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.10.05-17.31.37:241][277]LogSavePackage: Save=55.067848ms
+[2014.10.05-17.31.37:241][277]LogSavePackage: Moving '../../../../../../Users/MichaB/Documents/GitHub/rocketjump_prototype/RocketJumpPrototype/Saved/Example_MapAFEC
